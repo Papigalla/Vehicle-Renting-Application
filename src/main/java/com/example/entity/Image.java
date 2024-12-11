@@ -29,8 +29,10 @@ public class Image {
 	public void setContentType(String contentType) {
 		this.contentType = contentType;
 	}
+
 	
 	
+
 
 
 }
