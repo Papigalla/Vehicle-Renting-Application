@@ -8,4 +8,5 @@ import com.example.entity.Image;
 public interface ImageRepository extends JpaRepository<Image, Integer> {
 
 
+	
 }
