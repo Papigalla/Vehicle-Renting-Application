@@ -3,7 +3,6 @@ package com.example.entity;
 import java.awt.Image;
 
 import com.example.enums.UserRole;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
