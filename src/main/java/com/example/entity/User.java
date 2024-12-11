@@ -1,8 +1,7 @@
 package com.example.entity;
 
-import java.awt.Image;
-
 import com.example.enums.UserRole;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -17,8 +16,7 @@ public class User {
 	private String email;
 	private long phoneNumber;
 	private String password;
-	private UserRole role;
-	
+	private  UserRole role; 
 	public int getUserId() {
 		return userId;
 	}
@@ -55,6 +53,5 @@ public class User {
 	public void setRole(UserRole role) {
 		this.role = role;
 	}
-	
 
 }
